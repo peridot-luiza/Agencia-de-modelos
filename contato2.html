@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+</head>
+<body>
+    <style>
+       body {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          margin: 20px;
+          background-color:rgba(0, 0, 0, 0.904);
+          
+        }
+        .form-container {
+          max-width: 400px;
+          margin: auto;
+          background:white;
+          padding: 20px;
+          border-radius: 10px;
+          color: black;
+          
+        }
+        h1 {
+          text-align: center;
+          color: black;
+        }
+        h4 {
+          text-align: left;
+          color: white;
+          font-size: 18px;
+        }
+        h2 {
+          text-align: center;
+          color:white;
+        }
+      
+        label {
+          display: block;
+          margin-top: 1px;
+          font-weight: bold;
+    
+        }
+        button {
+          margin-top: 10px;
+          width: 80%;
+          padding: 10px;
+          background-color: #01070ef1;
+          color: white;
+          border: none;
+          border-radius: 1px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #323b44;
+        }
+        
+      </style>
+    </head>
+    <body>
+      <H2>Você está na página de Contato da nossa agência de modelos.</H2> 
+      <h4>Aqui é onde começa a sua jornada no mundo da moda!.  Se você sonha em trabalhar como modelo,podemos te ajudar!<br>
+        Preencha o formulário abaixo com seus dados e uma breve apresentação.Estamos sempre em busca de novos talentos e <br>
+        teremos prazer em conhecer você. Não se esqueça de anexar algumas fotos recentes no nosso e-mail.<br>
+        Nossa equipe entrará em contato caso seu perfil combine com o que procuramos.<br>
+        Nosso e-mail para anexo das fotos! (Favor, enviar em HD) <a href="mailto:clikearte@gmail.com">clikarte@gamil.com</a></h4>
+  
+      <div class="form-container">
+        <h1>Fale Conosco</h1>
+        <form action="#" method="post">
+          <label for="Nome">Nome</label>
+         <input type="text" id="Nome" name="Nome" readonly>
+         <label for="idade">Idade</label>
+         <input for="idade" id="Idade" name="Idade" required>
+          <label for="email">E-mail</label>
+         <input for="email" id="email" name="email" required>
+          <label for="mensagem">Mensagem</label>
+         <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+    
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+</body>
+</html>
